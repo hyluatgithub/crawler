@@ -1,0 +1,14 @@
+server:
+                  port: 8088
+                  max-http-header-size: 8192
+
+                  spring:
+                    application:
+                      name: spring-boot-neo4j
+                    data:
+                      neo4j:   # neo4j配置
+                        uri: bolt://localhost:7687
+                        #      uri: bolt://139.9.121.228:7687
+                        username: neo4j
+                        #      password: neo4j
+                        password: root
